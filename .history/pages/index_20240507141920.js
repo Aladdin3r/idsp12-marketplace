@@ -45,7 +45,7 @@ export default function Home() {
 
         <div class="jumbotron">
         <Image src="/stuffnstuff_footer.webp" width={500} height={400}/>
-          <p class="lead">The modern and safe marketplace to earn your trust and connect with real people.</p>
+          <p class="lead my-0">The modern and safe marketplace to earn your trust and connect with real people.</p>
           <hr class="my-4"/>
           <p class="lead">
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>

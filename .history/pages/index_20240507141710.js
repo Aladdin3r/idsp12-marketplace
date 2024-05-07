@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         <div class="jumbotron">
-        <Image src="/stuffnstuff_footer.webp" width={500} height={400}/>
+          <h1 class="display-3 my-4">STUFF n STUFF</h1>
           <p class="lead">The modern and safe marketplace to earn your trust and connect with real people.</p>
           <hr class="my-4"/>
           <p class="lead">
