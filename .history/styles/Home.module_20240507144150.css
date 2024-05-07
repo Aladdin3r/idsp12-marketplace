@@ -3,10 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 1em;
+  margin-right: 5em;
   min-height: 25vh;
 }
 
-.custom-width {
-  width: 300%;
-}

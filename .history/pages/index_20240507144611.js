@@ -58,15 +58,15 @@ export default function Home() {
           <form className="ms-5">
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>
-              <input type="text" className="form-control custom-width" id="name" placeholder="Enter your name"/>
+              <input type="text" className="form-control" id="name" placeholder="Enter your name" style={{ width: '100%' }}/>
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email address</label>
-              <input type="email" className="form-control custom-width" id="email" placeholder="name@example.com"/>
+              <input type="email" className="form-control" id="email" placeholder="name@example.com" style={{ width: '100%' }}/>
             </div>
             <div className="mb-3">
               <label htmlFor="message" className="form-label">Message</label>
-              <textarea className="form-control custom-width" id="message" rows="3" placeholder="Enter your message"></textarea>
+              <textarea className="form-control" id="message" rows="3" placeholder="Enter your message" style={{ width: '100%' }}></textarea>
             </div>
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
