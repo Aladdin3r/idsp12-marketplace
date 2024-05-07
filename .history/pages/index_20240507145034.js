@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
 
-        <div id="contact" class="container-sm">
+        <div id="contact" class="container-fluid">
           <h4 className="mb-3">Contact Us</h4>
           <form>
             <div className="mb-3">

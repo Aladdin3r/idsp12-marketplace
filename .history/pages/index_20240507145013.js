@@ -53,9 +53,9 @@ export default function Home() {
         </div>
 
 
-        <div id="contact" class="container-sm">
+        <div id="contact">
           <h4 className="mb-3">Contact Us</h4>
-          <form>
+          <form >
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>
               <input type="text" className="form-control custom-width" id="name" placeholder="Enter your name"/>
