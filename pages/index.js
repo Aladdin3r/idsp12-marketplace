@@ -15,7 +15,7 @@ export default function Home() {
           <NavigationBar />
         </div>
 
-        <div className="jumbotron mb-6 ms-6">
+        <div className="jumbotron mb-6 sm-6">
           <Image src="/stuffnstuff_footer.webp" width={500} height={400} />
           <p className="lead">The modern and safe marketplace to earn your trust and connect with real people.</p>
           <hr className="my-4" />
@@ -26,24 +26,28 @@ export default function Home() {
 
 
         <div id="video" class="container-sm   mt-4">
-          <h4 className="mb-3">Marketing Video</h4>
-          <div className="jumbotron mb-6 ms-6">
-            <Video />
+          <div class="row">
+            <h4 className="mb-3">Marketing Video</h4>
+            <div className="jumbotron mb-12 ms-12">
+              <Video />
+            </div>
           </div>
         </div>
 
         <div id="about" class="container-sm  mt-4">
-          <h4 className="mb-3">About Us  </h4>
-          <div className="jumbotron mb-6 ms-6">
-            <p>Team Name:</p>
+          <div class="row">
+            <h4 className="mb-3">About Us  </h4>
+            <div className="jumbotron mb-6 ms-6">
+              <p>Team Name:</p>
 
-            <p>Team Memeber:</p>
-            <ul>
-              <li>Rawan Aladdin</li>
-              <li>Andrew Turitsa</li>
-              <li>Mia Mackenzie </li>
-              <li>Timothy Lee (Layout Design) </li>
-            </ul>
+              <p>Team Memeber:</p>
+              <ul>
+                <li>Rawan Aladdin</li>
+                <li>Andrew Turitsa</li>
+                <li>Mia Mackenzie </li>
+                <li>Timothy Lee </li>
+              </ul>
+            </div>
           </div>
         </div>
 
