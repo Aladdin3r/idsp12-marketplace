@@ -1,50 +1,20 @@
-import Head from "next/head";
+import HeadArea from "@/Components/HeadArea";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Video from "@/Components/Video";
+import NavigationBar from '@/Components/NavigationBar';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Stuff n Stuff</title>
-        <meta name="description" content="The modern and safe marketplace to earn your trust and connect with real people." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/stuffnstuff_footer.webp" />
-      </Head>
+      <HeadArea />
       <main className={`${styles.main}`}>
 
         <div className="container-fluid">
-          <nav className="navbar navbar-expand-lg bg-light" data-bs-theme="light">
-            <div className="container">
-              <a className="navbar-brand" href="#"><Image src="/stuffnstuff_footer.webp" width={100} height={100} /></a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarColor03">
-                <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Features</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Detailed Description</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Links</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          <NavigationBar />
         </div>
 
-        <div className="jumbotron mb-5 ms-5">
+        <div className="jumbotron mb-6 ms-6">
           <Image src="/stuffnstuff_footer.webp" width={500} height={400} />
           <p className="lead">The modern and safe marketplace to earn your trust and connect with real people.</p>
           <hr className="my-4" />
@@ -53,11 +23,29 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="jumbotron mb-6 ms-6">
-          <Video />
+
+        <div id="video" class="container-sm   mt-4">
+          <h4 className="mb-3">Marketing Video</h4>
+          <div className="jumbotron mb-6 ms-6">
+            <Video />
+          </div>
         </div>
 
-        <div id="contact" class="container-sm">
+        <div id="about" class="container-sm  mt-4">
+          <h4 className="mb-3">About Us  </h4>
+          <div className="jumbotron mb-6 ms-6">
+            <p>Team Name:</p>
+
+            <p>Team Memeber:</p>
+            <ul>
+              <li>Rawan Aladdin</li>
+              <li>Andrew Turitsa</li>
+              <li>Mia Mackenzie </li>
+              <li>Timothy Lee (Layout Design) </li>
+            </ul>
+          </div>
+        </div>
+        <div id="contact" class="container-sm mt-4">
           <h4 className="mb-3">Contact Us</h4>
           <form>
             <div className="mb-3">
