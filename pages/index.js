@@ -63,6 +63,11 @@ export default function Home() {
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
         </div>
+        <div>
+          <div className="mb-12 mt-4">
+            &copy; BCIT educational project, Project 1, 2024
+          </div>
+        </div>
 
       </main>
     </>
