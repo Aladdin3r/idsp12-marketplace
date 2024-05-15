@@ -46,6 +46,23 @@ export default function Home() {
             </ul>
           </div>
         </div>
+
+        <div id="features" class="container-sm  mt-4">
+          <h4 className="mb-3">Features & Additional persuasive  </h4>
+          <div className="jumbotron mb-6 ms-6">
+           
+          </div>
+        </div>
+        <div id="description" class="container-sm  mt-4">
+          <h4 className="mb-3"> Description  </h4>
+          <div className="jumbotron mb-6 ms-6">
+            
+            
+          </div>
+        </div>
+
+        
+
         <div id="download" className="container-md  mt-4">
           <div className="row">
             <div className="col-md-6 justify-content-center">
