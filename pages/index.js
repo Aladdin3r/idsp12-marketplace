@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Video from "@/Components/Video";
 import NavigationBar from '@/Components/NavigationBar';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -45,6 +46,22 @@ export default function Home() {
             </ul>
           </div>
         </div>
+        <div id="download" className="container-md  mt-4">
+          <div className="row">
+            <div className="col-md-6 justify-content-center">
+              <h4>Download</h4>
+              <p>The application available on App Store and Google Store.</p>
+              <Link href="https://www.figma.com/proto/WFyzAHRx2f6lgYz3UGSxS0/Wireframes?node-id=505-1373&t=apEVDRjpynC4Iaa1-0&scaling=scale-down&page-id=299%3A2268&starting-point-node-id=505%3A1373&show-proto-sidebar=1">
+              <Image src='/download2.jpeg' width={200} height={124} />
+              </Link>
+            </div>
+            <div className="col-md-6">
+              <Image src='/app_cover.png' width={300} height={700} />
+            </div>
+          </div>
+
+        </div>
+
         <div id="contact" class="container-sm mt-4">
           <h4 className="mb-3">Contact Us</h4>
           <form>
@@ -63,7 +80,8 @@ export default function Home() {
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
         </div>
-        <div>
+
+        <div id="contact" >
           <div className="mb-12 mt-4">
             &copy; BCIT educational project, Project 1, 2024
           </div>
