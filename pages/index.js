@@ -16,7 +16,7 @@ export default function Home() {
         </div>
 
         <div className="jumbotron mb-6 sm-6">
-          <Image src="/stuffnstuff_footer.webp" width={500} height={400} />
+          <Image src="/stuffnstuff_footer.webp" width={500} height={400} className="center-block" />
           <p className="lead">The modern and safe marketplace to earn your trust and connect with real people.</p>
           <hr className="my-4" />
           <p className="lead">
@@ -45,7 +45,7 @@ export default function Home() {
                 <li>Rawan Aladdin</li>
                 <li>Andrew Turitsa</li>
                 <li>Mia Mackenzie </li>
-                <li>Timothy Lee </li>
+                <li>Timothy Le </li>
               </ul>
             </div>
           </div>
