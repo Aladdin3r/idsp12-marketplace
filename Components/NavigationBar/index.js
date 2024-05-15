@@ -10,16 +10,19 @@ export default function NavigationBar(){
               <div className="collapse navbar-collapse" id="navbarColor03">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                    <a className="nav-link" href="#video">Features</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Detailed Description</a>
+                    <a className="nav-link" href="#video">Video</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#about">About</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Links</a>
+                    <a className="nav-link" href="#features">Features</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#description">Detailed Description</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#download">Links</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#contact">Contact</a>
