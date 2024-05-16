@@ -45,7 +45,7 @@ export default function Home() {
                 <li>Rawan Aladdin</li>
                 <li>Andrew Turitsa</li>
                 <li>Mia Mackenzie </li>
-                <li>Timothy Le </li>
+                <li>Timothy Lee </li>
               </ul>
             </div>
           </div>
@@ -56,7 +56,8 @@ export default function Home() {
           <div className="jumbotron mb-6 ms-6">
             <p>SafeExchange’s boasts an in-depth screening process for account creation, some required steps for new users to complete are:</p>
             <ul>
-              <li> 2 factor authentication paired to the user’s email address</li>
+              {/* <li> 2 factor authentication paired to the user’s email address</li> */}
+              <li>User information is verified by a real administrator to confirm the use exists.</li>
               <li>A recaptcha image recognition features</li>
             </ul>
             <p>In terms of user experience for SafeExchange’s buyers and sellers, app has:</p>
