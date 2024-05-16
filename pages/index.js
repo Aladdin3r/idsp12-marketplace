@@ -40,7 +40,7 @@ export default function Home() {
             <div className="jumbotron mb-6 ms-6">
               <p>Team Name:</p>
 
-              <p>Team Memeber:</p>
+              <p>Team Member:</p>
               <ul>
                 <li>Rawan Aladdin</li>
                 <li>Andrew Turitsa</li>
