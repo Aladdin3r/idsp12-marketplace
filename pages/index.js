@@ -16,6 +16,7 @@ export default function Home() {
         </div>
 
         <div className="jumbotron mb-6 sm-6">
+          <Image src="/RegularLogo 1.svg" width={500} height={400} className="center-block" />
           <Image src="/HorizontalWordmark.svg" width={500} height={400} className="center-block" />
           <p className="lead">The modern and safe marketplace to earn your trust and connect with real people.</p>
           <hr className="my-4" />
